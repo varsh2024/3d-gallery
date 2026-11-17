@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+.contact-container {
+  font-family: 'Poppins', sans-serif;
+  background: #fafafb;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.contact-left {
+  width: 45%;
+}
+
+.contact-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.highlight {
+  color: #6a0dad;
+}
+
+.contact-description {
+  font-size: 1.1rem;
+  color: #555;
+  margin-top: 10px;
+}
+
+.contact-note {
+  font-weight: 600;
+  margin-top: 20px;
+  font-size: 20px;
+  color: #3a066a;
+}
+
+.contact-right {
+  width: 50%;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+  display: block;
+  font-weight: 600;
+  margin: 10px 0 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 300%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background: #6a0dad;
+  color: white;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background: #5300a0;
+}
+
+.contact-footer {
+  background: #3c0156fc;
+  color: white;
+  text-align: center;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.contact-info h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #7a1fcf;
+}
+
+.contact-info p {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 1.1rem;
+}
+
+.contact-icons {
+  margin-top: 20px;
+}
+
+.icon {
+  font-size: 1.5rem;
+  margin: 0 10px;
+  cursor: pointer;
+}

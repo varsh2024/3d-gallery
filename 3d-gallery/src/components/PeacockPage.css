@@ -1,0 +1,67 @@
+/* PeacockPage.css */
+.App {
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+  
+  .App-header {
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+  
+  .content-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Increasing gap between the image and content */
+  }
+  
+  .peacock-image {
+    width: 400px;
+    height: auto;
+  }
+  
+  .text-content {
+    text-align: left;
+  }
+  
+  h1 {
+    font-size: 3.5em; /* Increasing the size of the heading */
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.5em; /* Increasing the size of the paragraph */
+    margin-bottom: 20px;
+    color: rgb(239, 238, 238);
+  }
+  
+ /* PeacockPage.css */
+/* PeacockPage.css */
+/* PeacockPage.css */
+.explore-button {
+  background-color: #6303a8;
+  color: rgb(253, 247, 247);
+  border: none;
+  padding: 15px 30px; /* Increased padding for a bigger button */
+  font-size: 1.5em; /* Increased font size */
+  cursor: pointer;
+  margin-bottom: 20px;
+  border-radius: 12px; /* Slightly more curvature */
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+  width: 180px; /* Increased width */
+}
+
+
+  
+  
+  

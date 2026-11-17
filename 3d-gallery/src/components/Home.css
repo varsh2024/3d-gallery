@@ -1,0 +1,127 @@
+/* Home.css */
+
+.container {
+  font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+}
+
+.logo-container img,
+.profile-container img {
+  width: 50px;
+  height: 50px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 80px;
+  margin: 20px;
+  padding: 10px;
+}
+
+.menu li {
+  display: inline;
+}
+
+.menu li a {
+  color: #040000;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.menu li a:hover {
+  color: #bf5fe2;
+}
+
+.auth-buttons-navbar {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  gap: 10px;
+}
+
+.signup-button-navbar,
+.login-button-navbar {
+  background-color: #6a2589;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.signup-button-navbar:hover,
+.login-button-navbar:hover {
+  background-color: #e73370;
+}
+
+.title {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 70px;
+  font-family: 'Brush Script MT', cursive;
+  color: #902daf;
+}
+
+.carousel {
+  display: flex;
+  gap: 15px; /* Adds space between images */
+  justify-content: center;
+  align-items: center;
+  overflow-x: auto; /* Allows scrolling if needed */
+  padding: 20px 0;
+}
+
+.carousel img {
+  width: 190px;  /* Adjust image width */
+  height: 190px; /* Adjust image height */
+  object-fit: cover; /* Ensures the images fit nicely */
+  border-radius: 10px; /* Optional rounded corners */
+  transition: transform 0.3s ease-in-out;
+}
+
+.carousel img:hover {
+  transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+.reviews {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.review-profiles {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.review-profiles img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.review-text {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+.review-text h2 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.review-text p {
+  margin: 0;
+  color: gray;
+  font-size: 20px;
+}

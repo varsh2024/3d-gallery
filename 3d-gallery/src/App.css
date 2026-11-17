@@ -1,0 +1,141 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+
+}
+
+.container {
+  text-align: center;
+  min-height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #fff;
+ 
+}
+
+.navbar {
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+  background: #fff;
+
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #09085e;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 35px;
+}
+
+.menu li {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 48px;
+  font-family: 'Brush Script MT', cursive;
+  color: #220261;
+  margin: 100px 0 20px;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  perspective: 1500px;
+  padding: 20px;
+}
+
+.carousel img {
+  width: 210px;
+  height: 210px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.5s;
+  transform: perspective(1000px) rotateY(20deg);
+}
+
+.carousel img:nth-child(2) {
+  transform: perspective(1000px) rotateY(10deg);
+}
+
+.carousel img:nth-child(3) {
+  transform: perspective(1000px) rotateY(0deg);
+}
+
+.carousel img:nth-child(4) {
+  transform: perspective(1000px) rotateY(-10deg);
+}
+.carousel img:nth-child(5) {
+  transform: perspective(1000px) rotateY(10deg);
+}
+
+.carousel img:nth-child(6) {
+  transform: perspective(1000px) rotateY(0deg);
+}
+
+.carousel img:nth-child(7) {
+  transform: perspective(1000px) rotateY(-10deg);
+}
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+ 
+  padding: 20px;
+  background: #fff;
+
+}
+
+.review-profiles img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.review-text {
+  text-align: left;
+}
+
+.review-text h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.review-text p {
+  margin: 0;
+  color: gray;
+}
+
+@media (max-width: 768px) {
+  .carousel {
+    flex-direction: column;
+  }
+
+  .carousel img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .menu {
+    display: none;
+  }
+}
+
+
+
+

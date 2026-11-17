@@ -1,0 +1,21 @@
+/* Carousel.css */
+
+.slick-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    height: 150px;
+  }
+  
+  .slick-dots li button:before {
+    color: #333;
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+    color: #333;
+  }
+  
